@@ -12,7 +12,7 @@
         twitter_handle = "cbc_cork",
         gmail = 'cbccork.college@gmail.com',
         is_push = false,
-        is_emulator = true,
+        is_emulator = false,
         in_browser = false;
 
     /********device id and api key for browser testing*********/

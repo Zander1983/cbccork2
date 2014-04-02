@@ -98,7 +98,6 @@ var app = {
    
         var pushNotification = window.plugins.pushNotification;
         if (window.device.platform == 'android' || window.device.platform == 'Android') {
-            alert('registering for push');
             pushNotification.register(app.successHandler, app.errorHandler,{"senderID":project_number,"ecb":"app.onNotificationGCM"});                        
         }
         else{
@@ -146,7 +145,6 @@ var app = {
      */
     onNotificationGCM: function(e) {
       
-        alert('in register callback');
         switch( e.event )
         {
         
